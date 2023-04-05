@@ -1,0 +1,141 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+header{
+
+background-color: #000000;
+
+padding: 8px;
+
+height: 100px;
+
+
+}
+.container{
+
+max-width: 1667px;
+
+margin: 0px auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+}
+.logo{
+
+max-width: 15%;
+
+flex: 0 1 auto;
+}
+nav{
+    max-width: 85%;
+    flex: 1 0 auto;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    padding: 5px 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: border  0.4s linear;
+}
+nav ul li a:hover{
+    
+    border-bottom: 2px solid #222;
+}
+
+.heroBanner{
+    background: #000000 url(../images/Block\ top\ black.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px 1px #ababab;
+    min-height: 91vh;
+    display: flex;
+    align-items: center;
+}
+
+.heroBanner img{
+    width: 100%;
+}
+
+.column01{
+    flex-basis: 47%;
+}
+
+
+
+.column02{
+    flex-basis: 53%;
+    padding: 0px 0px;
+}
+
+.heroBanner h1{
+    font-size: 65px;
+    color: rgb(255 255 255);
+    line-height: 0;
+    text-align: center;
+}
+.heroBanner p{
+    color: rgb(255 255 255);
+    font-size: 32px;
+    margin-bottom: 150px;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.counter h2{
+    font-size: 33px;
+}
+.counter span{
+    font-size: 33px;}
+
+.counter div{
+    flex-basis: 32.33%;
+    border-right: 1px solid #726e6e;
+    text-align: center;
+}
+.counter div:last-child{
+    border-right: 0px solid #e2dfdf;
+}
+
+.heroBanner h2{
+    color: white;
+}
+.heroBanner span{
+    color: white;
+}
+
+.features{
+    padding: 23px;
+}
